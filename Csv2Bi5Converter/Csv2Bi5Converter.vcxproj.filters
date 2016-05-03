@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LZMA">
+      <UniqueIdentifier>{74356598-672f-43bf-ac80-7bab10d4c768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\pavlov">
+      <UniqueIdentifier>{505eeddd-4142-43b9-aa59-967226ed1292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZMA\easylzma">
+      <UniqueIdentifier>{a40b1004-02c6-462b-91d7-b9728605064a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Csv2Bi5Converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Csv2Bi5ConverterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\common_internal.h">
+      <Filter>LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\lzip_header.h">
+      <Filter>LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\lzma_header.h">
+      <Filter>LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\easylzma\common.h">
+      <Filter>LZMA\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\easylzma\compress.h">
+      <Filter>LZMA\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\easylzma\decompress.h">
+      <Filter>LZMA\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\7zBuf.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\7zCrc.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\7zFile.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\7zVersion.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\Alloc.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\Bcj2.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\Bra.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\CpuArch.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\LzFind.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\LzHash.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\LzmaDec.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\LzmaEnc.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\LzmaLib.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\pavlov\Types.h">
+      <Filter>LZMA\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="LzmaCompress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Csv2Bi5Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Csv2Bi5Converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Csv2Bi5ConverterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Csv2Bi5Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\common_internal.cpp">
+      <Filter>LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\compress.cpp">
+      <Filter>LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\decompress.cpp">
+      <Filter>LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\lzip_header.cpp">
+      <Filter>LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\lzma_header.cpp">
+      <Filter>LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\7zBuf.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\7zBuf2.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\7zCrc.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\7zFile.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\7zStream.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\Alloc.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\Bcj2.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\Bra.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\Bra86.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\BraIA64.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\LzFind.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\LzmaDec.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\LzmaEnc.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\pavlov\LzmaLib.cpp">
+      <Filter>LZMA\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="LzmaCompress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Csv2Bi5Converter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Csv2Bi5Converter.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Csv2Bi5Converter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
