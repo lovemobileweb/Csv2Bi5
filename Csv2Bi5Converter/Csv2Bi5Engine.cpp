@@ -91,31 +91,33 @@ int StringToInt(string str)
 	int k = str.length();
 	if (k > dotIdx + 5)
 	{
-		ret += str.substr(dotIdx + 1, 5);
-		iRet = stoi(ret);
+	ret += str.substr(dotIdx + 1, 5);
+	iRet = stoi(ret);
 	}
 	else
 	{
-		ret += str.substr(dotIdx + 1);
-		iRet = stoi(ret);
-		iRet *= pow(10, 6 - (k - dotIdx));
+	ret += str.substr(dotIdx + 1);
+	iRet = stoi(ret);
+	iRet *= pow(10, 6 - (k - dotIdx));
 	}
 	return iRet;*/
 	int ret = 0;
 	int dotIdx = str.find_first_of('.');
-	int nIdx = dotIdx + 5;
+	//int nIdx = dotIdx + 5;
+	int nIdx;
 	bool negative = (str[0] == '-');
 	int i = 0;
 	if (negative == true)
 		i = 1;
+	nIdx = i;
 	int k = str.length();
-	for (; i <= nIdx; i++)
+	for (; i < 6; i++, nIdx++)
 	{
-		if(i < k)
+		if (nIdx < k)
 		{
 			if (i == dotIdx)
-				i++;
-			ret = ret * 10 + (int)(str[i] - '0');
+				nIdx++;
+			ret = ret * 10 + (int)(str[nIdx] - '0');
 		}
 		else
 		{
